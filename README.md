@@ -1,1 +1,3 @@
-# bootstrap_vue_start
+# bootstrap Vue.js Start
+
+A very basic Bootstrap template with Vue.js.
