@@ -101,7 +101,14 @@
               </div>
             </transition>
             <div id="chart_div"></div>
-          </div>          
+          </div>
+          <div class="col-md-12">
+            <transition name="fade">
+              <div v-if="!seen">
+                <img src="img.gif" class="img-fluid center-block" alt="Responsive image"></img>
+              </div>
+            </transition>
+          </div>
         </div>
       </div>
 
@@ -215,7 +222,7 @@
                   var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
 
                   chart.draw(data, options);
-    }
+                }
           }
       })
     </script>
